@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Santos Estruturas Metálicas LTDA | Montagem de Estruturas Metálicas em Brasília - DF</title>
+    <meta name="description" content="Estruturas Metalicas Cc Santos LTDA (CNPJ 48.041.523/0001-02). Especialistas em montagem de estruturas metálicas, galpões industriais, mezaninos, coberturas em treliça e reforço estrutural em Fercal (Sobradinho), Brasília - DF.">
+    <meta name="keywords" content="Estruturas Metalicas Cc Santos LTDA, montagem de estruturas metálicas Brasília DF, galpões metálicos Sobradinho Fercal, mezanino metálico DF, cobertura metálica Brasília, CNPJ 48.041.523/0001-02">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="CC Santos Estruturas Metálicas LTDA | Engenharia & Montagem Estrutural em Brasília - DF">
+    <meta property="og:description" content="Montagem de galpões, coberturas, mezaninos e estruturas metálicas de alta precisão em Brasília e entorno. Conformidade ABNT NBR 8800 e NR-35.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace']
+                    },
+                    colors: {
+                        weld: {
+                            50: '#fff5f0',
+                            100: '#ffe6d9',
+                            400: '#ff7a45',
+                            500: '#ff5a1f',
+                            600: '#e04209',
+                            700: '#b83304'
+                        },
+                        steel: {
+                            50: '#f4f6f8',
+                            100: '#e6eaef',
+                            200: '#cfd6df',
+                            700: '#2b3440',
+                            800: '#1b222c',
+                            900: '#12171e',
+                            950: '#0b0e13'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #f4f6f8;
+            color: #12171e;
+            overflow-x: hidden;
+        }
+
+        .blueprint-bg {
+            background-color: #12171e;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+            background-size: 36px 36px;
+        }
+
+        .tech-card {
+            background: #ffffff;
+            border: 1px solid #cfd6df;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .tech-card:hover {
+            transform: translateY(-4px);
+            border-color: #ff5a1f;
+            box-shadow: 0 20px 35px -12px rgba(18, 23, 30, 0.12);
+        }
+
+        .nav-industrial {
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(14px);
+            border-bottom: 2px solid #e6eaef;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e6eaef;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2b3440;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ff5a1f;
+        }
+    </style>
+</head>
+<body class="selection:bg-weld-500 selection:text-white antialiased flex flex-col min-h-screen">
+
+    <!-- TOP TECHNICAL SPECIFICATION STRIP -->
+    <div class="bg-steel-950 text-steel-100 text-xs py-2.5 px-4 border-b border-white/10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+            <div class="flex items-center gap-3">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 bg-weld-500 text-white font-mono font-bold text-[11px] uppercase tracking-wider">
+                    CNAE 42.92-8-01
+                </span>
+                <span class="text-slate-300 font-medium">Montagem de Estruturas Metálicas • Normas ABNT NBR 8800, NR-18 & NR-35</span>
+            </div>
+            <div class="flex items-center gap-4 text-[11px] text-slate-400 font-mono">
+                <span class="flex items-center gap-1"><i class="ph-fill ph-map-pin text-weld-400"></i> Fercal (Sobradinho) • Brasília/DF</span>
+                <span class="hidden sm:inline text-white/20">|</span>
+                <span>CNPJ: 48.041.523/0001-02</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-50 nav-industrial">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- BRAND LOGO -->
+                <a href="index.html" class="flex items-center gap-3.5 group">
+                    <div class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center font-mono font-bold text-xl border-b-4 border-weld-500 group-hover:bg-weld-500 group-hover:text-white transition-all">
+                        <i class="ph-bold ph-Nut text-2xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-display font-bold text-lg sm:text-xl leading-none tracking-tight text-steel-900 uppercase">
+                            CC SANTOS <span class="text-weld-600">METÁLICAS</span>
+                        </span>
+                        <span class="text-[11px] font-mono uppercase tracking-widest text-slate-500 mt-1">
+                            Engenharia & Montagem • Brasília DF
+                        </span>
+                    </div>
+                </a>
+
+                <!-- DESKTOP NAV -->
+                <nav class="hidden lg:flex items-center gap-7">
+                    <a href="#solucoes" class="text-sm font-semibold text-steel-700 hover:text-weld-600 transition-colors">Soluções Estruturais</a>
+                    <a href="#simulador" class="text-sm font-semibold text-steel-700 hover:text-weld-600 transition-colors">Dimensionamento & Cotação</a>
+                    <a href="#metodologia" class="text-sm font-semibold text-steel-700 hover:text-weld-600 transition-colors">Processo de Montagem</a>
+                    <a href="#institucional" class="text-sm font-semibold text-steel-700 hover:text-weld-600 transition-colors">A Empresa</a>
+                    <a href="contato.html" class="text-sm font-semibold text-steel-700 hover:text-weld-600 transition-colors">Contato Técnico</a>
+                </nav>
+
+                <!-- CTA -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <button onclick="toggleModal('modal-orcamento')" class="inline-flex items-center gap-2 bg-weld-500 hover:bg-weld-600 text-white font-display font-bold px-5 py-2.5 text-sm shadow-md shadow-weld-500/20 transition-all">
+                        <i class="ph-bold ph-Blueprint text-lg"></i>
+                        <span>Solicitar Orçamento</span>
+                    </button>
+                    <a href="contato.html" class="p-2.5 border border-steel-200 hover:border-weld-500 text-steel-700 hover:text-weld-600 transition-all text-sm" title="Central de Engenharia">
+                        <i class="ph-bold ph-phone-call text-lg"></i>
+                    </a>
+                </div>
+
+                <!-- MOBILE MENU BUTTON -->
+                <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="lg:hidden p-2.5 border border-steel-200 text-steel-900" aria-label="Abrir menu">
+                    <i class="ph-bold ph-list text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MOBILE DROPDOWN -->
+        <div id="mobile-menu" class="hidden lg:hidden px-4 pt-2 pb-6 border-t border-steel-200 bg-white">
+            <div class="flex flex-col gap-2 py-2">
+                <a href="#solucoes" onclick="toggleMobileMenu()" class="px-3 py-2.5 text-steel-900 hover:bg-steel-50 font-semibold text-sm">Soluções Estruturais</a>
+                <a href="#simulador" onclick="toggleMobileMenu()" class="px-3 py-2.5 text-steel-900 hover:bg-steel-50 font-semibold text-sm">Simulador de Pré-Orçamento</a>
+                <a href="#metodologia" onclick="toggleMobileMenu()" class="px-3 py-2.5 text-steel-900 hover:bg-steel-50 font-semibold text-sm">Processo de Montagem</a>
+                <a href="#institucional" onclick="toggleMobileMenu()" class="px-3 py-2.5 text-steel-900 hover:bg-steel-50 font-semibold text-sm">Dados Cadastrais</a>
+                <a href="contato.html" class="px-3 py-2.5 text-steel-900 hover:bg-steel-50 font-semibold text-sm">Fale com a Engenharia</a>
+                <div class="pt-3 mt-2 border-t border-steel-100">
+                    <button onclick="toggleModal('modal-orcamento')" class="w-full flex items-center justify-center gap-2 bg-weld-500 text-white font-bold py-3 text-sm">
+                        <i class="ph-bold ph-whatsapp-logo text-lg"></i>
+                        <span>Cotar Projeto Estrutural</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+
+        <!-- HERO SECTION (INDUSTRIAL BLUEPRINT ARCHITECTURE) -->
+        <section class="blueprint-bg text-white py-16 lg:py-24 border-b-4 border-weld-500 relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- LEFT COLUMN -->
+                    <div class="lg:col-span-7">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/15 text-weld-400 font-mono text-xs font-semibold mb-6">
+                            <span class="w-2 h-2 bg-weld-500"></span>
+                            <span>ENGENHARIA DE CAMPO • MONTAGEM & RIGGING • BRASÍLIA/DF</span>
+                        </div>
+
+                        <h1 class="font-display font-bold text-4xl sm:text-5xl lg:text-[54px] text-white tracking-tight leading-[1.08] mb-6">
+                            Precisão estrutural em <span class="text-weld-500">aço pesado, galpões e coberturas</span> de grande vão.
+                        </h1>
+
+                        <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed mb-8">
+                            A <strong>Estruturas Metalicas Cc Santos LTDA</strong> executa a montagem técnica de estruturas metálicas industriais, comerciais e logísticas no Distrito Federal e entorno. Equipe habilitada em <strong>NR-35 (Trabalho em Altura)</strong> e <strong>NR-18</strong>, com alinhamento milimétrico, torqueamento controlado e soldagem certificada.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-12">
+                            <button onclick="toggleModal('modal-orcamento')" class="inline-flex items-center justify-center gap-3 bg-weld-500 hover:bg-weld-600 text-white font-display font-bold px-8 py-4 text-base shadow-xl transition-all">
+                                <i class="ph-bold ph-ruler text-xl"></i>
+                                <span>Solicitar Visita Técnica / Cotação</span>
+                            </button>
+                            <a href="#simulador" class="inline-flex items-center justify-center gap-2.5 bg-white/10 hover:bg-white/15 text-white font-semibold px-7 py-4 text-base border border-white/20 transition-all">
+                                <i class="ph-bold ph-calculator text-xl text-weld-400"></i>
+                                <span>Simular Peso de Aço & Prazo</span>
+                            </a>
+                        </div>
+
+                        <!-- TECHNICAL SPECS BAR -->
+                        <div class="grid grid-cols-3 gap-6 pt-8 border-t border-white/15 max-w-xl font-mono">
+                            <div>
+                                <div class="text-2xl sm:text-3xl font-bold text-weld-400">NBR 8800</div>
+                                <div class="text-xs text-slate-400 mt-1">Padrão Normativo de Aço</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl sm:text-3xl font-bold text-white">NR-35</div>
+                                <div class="text-xs text-slate-400 mt-1">Montadores Certificados</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl sm:text-3xl font-bold text-white">100%</div>
+                                <div class="text-xs text-slate-400 mt-1">Rastreabilidade & NFS-e</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT COLUMN: INDUSTRIAL VISUAL CARD -->
+                    <div class="lg:col-span-5">
+                        <div class="bg-steel-900 border border-white/15 p-3 relative shadow-2xl">
+                            <div class="relative h-[400px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=85" 
+                                     alt="Montagem de Estruturas Metálicas CC Santos em Brasília DF" 
+                                     class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-steel-950 via-steel-950/30 to-transparent"></div>
+                                
+                                <div class="absolute top-4 left-4 bg-steel-950/90 border border-white/15 px-3 py-1.5 font-mono text-[11px] text-weld-400">
+                                    REF: MONTAGEM-ESTRUTURAL-DF
+                                </div>
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-steel-950/95 border-l-4 border-weld-500 p-4">
+                                    <span class="text-[11px] font-mono uppercase text-slate-400 block">Base Operacional • Distrito Federal</span>
+                                    <h2 class="font-display font-bold text-base text-white mt-0.5">Setor Habitacional Fercal (Sobradinho)</h2>
+                                    <p class="text-xs text-slate-300 mt-1">
+                                        Setor Engenho Velho, Quadra 14, Lt 27A, Casa 04 • Atendimento ágil para obras em todo o DF.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOLUÇÕES ESTRUTURAIS (COM FILTRO TÉCNICO) -->
+        <section id="solucoes" class="py-20 lg:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
+                    <div>
+                        <span class="text-weld-600 font-mono font-bold text-xs uppercase tracking-widest block mb-2">Escopo Técnico • CNAE 42.92-8-01</span>
+                        <h2 class="font-display font-bold text-3xl sm:text-4xl text-steel-900">
+                            Serviços de Montagem de Estruturas Metálicas
+                        </h2>
+                        <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl">
+                            Executamos a montagem, interligação parafusada ou soldada, içamento de tesouras e fechamento metálico para empreendimentos industriais, agrícolas, comerciais e residenciais de alto padrão.
+                        </p>
+                    </div>
+
+                    <!-- FILTER BUTTONS -->
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="filtrarServicos('todos', this)" class="srv-btn px-4 py-2.5 text-xs font-mono font-bold uppercase bg-steel-900 text-white transition-all">
+                            Todos os Serviços
+                        </button>
+                        <button onclick="filtrarServicos('galpoes', this)" class="srv-btn px-4 py-2.5 text-xs font-mono font-bold uppercase bg-white text-steel-700 border border-steel-200 hover:border-weld-500 transition-all">
+                            Galpões & Coberturas
+                        </button>
+                        <button onclick="filtrarServicos('mezaninos', this)" class="srv-btn px-4 py-2.5 text-xs font-mono font-bold uppercase bg-white text-steel-700 border border-steel-200 hover:border-weld-500 transition-all">
+                            Mezaninos & Vigas
+                        </button>
+                        <button onclick="filtrarServicos('acessos', this)" class="srv-btn px-4 py-2.5 text-xs font-mono font-bold uppercase bg-white text-steel-700 border border-steel-200 hover:border-weld-500 transition-all">
+                            Escadas, Passarelas & Manutenção
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CARDS GRID -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                    
+                    <!-- SERVIÇO 1 -->
+                    <div class="srv-card tech-card p-7 flex flex-col justify-between" data-cat="galpoes">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                                    <i class="ph-fill ph-warehouse"></i>
+                                </span>
+                                <span class="text-[11px] font-mono font-bold uppercase bg-steel-50 px-3 py-1 border border-steel-200 text-steel-700">
+                                    Pórticos & Treliças
+                                </span>
+                            </div>
+                            <h3 class="font-display font-bold text-xl text-steel-900 mb-3">Montagem de Galpões Industriais e Logísticos</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Posicionamento de pilares metálicos sobre chumbadores, içamento de vigas de alma cheia ou treliçadas, instalação de terças, contraventamentos e fechamento lateral/cobertura em telhas trapezoidais ou termoacústicas.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-steel-100 flex items-center justify-between">
+                            <span class="text-xs font-mono text-slate-500">Vãos Livres de 10m a 40m+</span>
+                            <button onclick="selecionarServico('Montagem de Galpão Industrial / Logístico')" class="text-xs font-mono font-bold text-weld-600 hover:text-steel-900 uppercase flex items-center gap-1">
+                                Cotar Obra <i class="ph-bold ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- SERVIÇO 2 -->
+                    <div class="srv-card tech-card p-7 flex flex-col justify-between" data-cat="mezaninos">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                                    <i class="ph-fill ph-stack"></i>
+                                </span>
+                                <span class="text-[11px] font-mono font-bold uppercase bg-steel-50 px-3 py-1 border border-steel-200 text-steel-700">
+                                    Ampliação de Área
+                                </span>
+                            </div>
+                            <h3 class="font-display font-bold text-xl text-steel-900 mb-3">Mezaninos Metálicos & Plataformas Operacionais</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Montagem rápida e limpa de mezaninos em perfis laminados (W, I, H) ou dobrados para escritórios, estoques, lojas comerciais e apoio de maquinários, preparados para piso Steel Deck, painel Wall ou chapa xadrez.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-steel-100 flex items-center justify-between">
+                            <span class="text-xs font-mono text-slate-500">Sobrecarga 250 a 1.000 kgf/m²</span>
+                            <button onclick="selecionarServico('Montagem de Mezanino Metálico')" class="text-xs font-mono font-bold text-weld-600 hover:text-steel-900 uppercase flex items-center gap-1">
+                                Cotar Obra <i class="ph-bold ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- SERVIÇO 3 -->
+                    <div class="srv-card tech-card p-7 flex flex-col justify-between" data-cat="galpoes">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                                    <i class="ph-fill ph-tent"></i>
+                                </span>
+                                <span class="text-[11px] font-mono font-bold uppercase bg-steel-50 px-3 py-1 border border-steel-200 text-steel-700">
+                                    Grandes Coberturas
+                                </span>
+                            </div>
+                            <h3 class="font-display font-bold text-xl text-steel-900 mb-3">Coberturas Metálicas em Arco, Shed e Duas Águas</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Montagem de estruturas de cobertura para quadras poliesportivas, postos de combustível, supermercados, pátios de manobra e templos, incluindo sistema de calhas e rufos galvanizados.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-steel-100 flex items-center justify-between">
+                            <span class="text-xs font-mono text-slate-500">Telhas Galvalume / Sanduíche</span>
+                            <button onclick="selecionarServico('Montagem de Cobertura Metálica')" class="text-xs font-mono font-bold text-weld-600 hover:text-steel-900 uppercase flex items-center gap-1">
+                                Cotar Obra <i class="ph-bold ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- SERVIÇO 4 -->
+                    <div class="srv-card tech-card p-7 flex flex-col justify-between" data-cat="mezaninos">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                                    <i class="ph-fill ph-columns"></i>
+                                </span>
+                                <span class="text-[11px] font-mono font-bold uppercase bg-steel-50 px-3 py-1 border border-steel-200 text-steel-700">
+                                    Engenharia Civil
+                                </span>
+                            </div>
+                            <h3 class="font-display font-bold text-xl text-steel-900 mb-3">Reforço Estrutural & Vigas de Transição</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Instalação de perfis metálicos para reforço de lajes, abertura de vãos em alvenaria/concreto, encamisamento metálico de pilares e estruturas mistas aço-concreto em reformas corporativas.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-steel-100 flex items-center justify-between">
+                            <span class="text-xs font-mono text-slate-500">Solda MIG/MAG & Eletrodo</span>
+                            <button onclick="selecionarServico('Reforço Estrutural em Aço')" class="text-xs font-mono font-bold text-weld-600 hover:text-steel-900 uppercase flex items-center gap-1">
+                                Cotar Obra <i class="ph-bold ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- SERVIÇO 5 -->
+                    <div class="srv-card tech-card p-7 flex flex-col justify-between" data-cat="acessos">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                                    <i class="ph-fill ph-ladder"></i>
+                                </span>
+                                <span class="text-[11px] font-mono font-bold uppercase bg-steel-50 px-3 py-1 border border-steel-200 text-steel-700">
+                                    Norma CBMDF / NR-12
+                                </span>
+                            </div>
+                            <h3 class="font-display font-bold text-xl text-steel-900 mb-3">Escadas de Emergência, Passarelas & Guarda-Corpos</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Montagem de escadas metálicas externas de incêndio, escadas marinheiro com gaiola de proteção, passarelas técnicas de inspeção industrial e linhas de vida.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-steel-100 flex items-center justify-between">
+                            <span class="text-xs font-mono text-slate-500">Adequação Corpo de Bombeiros</span>
+                            <button onclick="selecionarServico('Escadas Metálicas / Passarelas Técnicas')" class="text-xs font-mono font-bold text-weld-600 hover:text-steel-900 uppercase flex items-center gap-1">
+                                Cotar Obra <i class="ph-bold ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- SERVIÇO 6 -->
+                    <div class="srv-card tech-card p-7 flex flex-col justify-between" data-cat="acessos">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                                    <i class="ph-fill ph-wrench"></i>
+                                </span>
+                                <span class="text-[11px] font-mono font-bold uppercase bg-steel-50 px-3 py-1 border border-steel-200 text-steel-700">
+                                    Retrofit Estrutural
+                                </span>
+                            </div>
+                            <h3 class="font-display font-bold text-xl text-steel-900 mb-3">Desmontagem Técnica, Remanejamento & Manutenção</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Desmontagem controlada de galpões para mudança de endereço, substituição de telhas e terças oxidadas, reaperto de ligações parafusadas e tratamento anticorrosivo.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-steel-100 flex items-center justify-between">
+                            <span class="text-xs font-mono text-slate-500">Atendimento em Todo o DF</span>
+                            <button onclick="selecionarServico('Manutenção / Desmontagem de Estrutura Metálica')" class="text-xs font-mono font-bold text-weld-600 hover:text-steel-900 uppercase flex items-center gap-1">
+                                Cotar Obra <i class="ph-bold ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SIMULADOR TÉCNICO DE DIMENSIONAMENTO (GALPÃO / COBERTURA / MEZANINO) -->
+        <section id="simulador" class="py-20 lg:py-24 blueprint-bg text-white border-y border-white/15">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- LEFT: INPUT CONTROLS -->
+                    <div class="lg:col-span-6">
+                        <span class="text-weld-400 font-mono font-bold text-xs uppercase tracking-widest block mb-2">Parametrização Preliminar de Engenharia</span>
+                        <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">
+                            Simulador de Dimensionamento Estrutural
+                        </h2>
+                        <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-8">
+                            Calcule uma estimativa técnica preliminar de consumo de aço estrutural e prazo de montagem em campo para a sua obra em Brasília/DF e envie os parâmetros diretamente para nossa equipe orçamentista.
+                        </p>
+
+                        <div class="bg-steel-900 border border-white/15 p-6 sm:p-8 space-y-6">
+                            <div>
+                                <label class="block text-xs font-mono uppercase text-slate-300 font-bold mb-2">1. Tipo de Estrutura Metálica:</label>
+                                <div class="grid grid-cols-3 gap-2.5">
+                                    <button type="button" id="tipo-galpao" onclick="setTipoEstrutura('galpao')" class="py-2.5 px-3 bg-weld-500 text-white font-mono font-bold text-xs uppercase">
+                                        Galpão Completo
+                                    </button>
+                                    <button type="button" id="tipo-cobertura" onclick="setTipoEstrutura('cobertura')" class="py-2.5 px-3 bg-white/5 text-slate-300 border border-white/10 font-mono font-bold text-xs uppercase">
+                                        Só Cobertura
+                                    </button>
+                                    <button type="button" id="tipo-mezanino" onclick="setTipoEstrutura('mezanino')" class="py-2.5 px-3 bg-white/5 text-slate-300 border border-white/10 font-mono font-bold text-xs uppercase">
+                                        Mezanino
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="flex justify-between text-xs font-mono uppercase text-slate-300 font-bold mb-2">
+                                    <span>2. Área Projetada Total (m²):</span>
+                                    <span id="area-val" class="text-weld-400 text-base">400 m²</span>
+                                </label>
+                                <input type="range" id="input-area" min="50" max="3000" step="50" value="400" oninput="calcularEstrutura()" class="w-full accent-weld-500 cursor-pointer">
+                            </div>
+
+                            <div>
+                                <label class="flex justify-between text-xs font-mono uppercase text-slate-300 font-bold mb-2">
+                                    <span>3. Vão Livre Principal (Largura):</span>
+                                    <span id="vao-val" class="text-weld-400 text-base">15 metros</span>
+                                </label>
+                                <input type="range" id="input-vao" min="6" max="35" step="1" value="15" oninput="calcularEstrutura()" class="w-full accent-weld-500 cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: TECHNICAL OUTPUT SHEET -->
+                    <div class="lg:col-span-6">
+                        <div class="bg-white text-steel-900 p-7 sm:p-9 border-t-8 border-weld-500 shadow-2xl">
+                            <div class="flex items-center justify-between border-b border-steel-200 pb-4 mb-6">
+                                <div>
+                                    <span class="text-[11px] font-mono uppercase text-slate-400 block">Folha de Pré-Dimensionamento</span>
+                                    <h3 class="font-display font-bold text-xl text-steel-900">Parâmetros Estimados da Obra</h3>
+                                </div>
+                                <i class="ph-bold ph-CompassTool text-3xl text-weld-500"></i>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 font-mono">
+                                <div class="p-4 bg-steel-50 border border-steel-200">
+                                    <span class="text-[11px] text-slate-500 uppercase block">Peso Estimado de Aço</span>
+                                    <strong id="out-peso" class="text-2xl font-bold text-steel-900">~11.200 kg</strong>
+                                    <span class="text-[10px] text-slate-500 block mt-0.5">Aço ASTM A36 / A572</span>
+                                </div>
+                                <div class="p-4 bg-steel-50 border border-steel-200">
+                                    <span class="text-[11px] text-slate-500 uppercase block">Prazo Médio de Montagem</span>
+                                    <strong id="out-prazo" class="text-2xl font-bold text-weld-600">18 a 25 dias</strong>
+                                    <span class="text-[10px] text-slate-500 block mt-0.5">Equipe em campo no DF</span>
+                                </div>
+                                <div class="sm:col-span-2 p-4 bg-steel-50 border border-steel-200">
+                                    <span class="text-[11px] text-slate-500 uppercase block">Tipologia Recomendada</span>
+                                    <strong id="out-perfil" class="text-sm font-bold text-steel-900 block mt-1">
+                                        Pórticos em Perfil Alma Cheia / Treliça Duas Águas + Terças em Perfil U Enrijecido
+                                    </strong>
+                                </div>
+                            </div>
+
+                            <button onclick="enviarSimulacaoParaModal()" class="w-full py-4 bg-steel-900 hover:bg-weld-500 text-white font-display font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-2 transition-all">
+                                <i class="ph-bold ph-paper-plane-tilt text-lg"></i>
+                                <span>Solicitar Orçamento Formal Desta Configuração</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- METODOLOGIA DE EXECUÇÃO EM 4 ETAPAS -->
+        <section id="metodologia" class="py-20 lg:py-24 bg-white border-b border-steel-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-weld-600 font-mono font-bold text-xs uppercase tracking-widest block mb-2">Rigor de Engenharia</span>
+                    <h2 class="font-display font-bold text-3xl sm:text-4xl text-steel-900">
+                        Protocolo de Montagem & Segurança Operacional
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base mt-2">
+                        Da conferência topográfica dos chumbadores à entrega final da cobertura estanque.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="p-7 bg-steel-50 border border-steel-200 relative">
+                        <span class="font-mono font-bold text-xs px-2.5 py-1 bg-steel-900 text-weld-400 inline-block mb-4">FASE 01</span>
+                        <h3 class="font-display font-bold text-lg text-steel-900 mb-2">Conferência de Base & Chumbadores</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Verificação de prumo, nível e locação geométrica dos blocos de fundação e chumbadores antes do recebimento das peças metálicas.
+                        </p>
+                    </div>
+
+                    <div class="p-7 bg-steel-50 border border-steel-200 relative">
+                        <span class="font-mono font-bold text-xs px-2.5 py-1 bg-steel-900 text-weld-400 inline-block mb-4">FASE 02</span>
+                        <h3 class="font-display font-bold text-lg text-steel-900 mb-2">Pré-Montagem & Plano de Rigging</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Montagem de módulos em solo e planejamento de içamento seguro com caminhão Munck ou guindaste sob isolamento de área (NR-18).
+                        </p>
+                    </div>
+
+                    <div class="p-7 bg-steel-50 border border-steel-200 relative">
+                        <span class="font-mono font-bold text-xs px-2.5 py-1 bg-steel-900 text-weld-400 inline-block mb-4">FASE 03</span>
+                        <h3 class="font-display font-bold text-lg text-steel-900 mb-2">Torqueamento & Soldagem</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Fixação estrutural com parafusos de alta resistência (ASTM A325), instalação de contraventamentos e soldas de campo inspecionadas.
+                        </p>
+                    </div>
+
+                    <div class="p-7 bg-steel-50 border border-steel-200 relative">
+                        <span class="font-mono font-bold text-xs px-2.5 py-1 bg-steel-900 text-weld-400 inline-block mb-4">FASE 04</span>
+                        <h3 class="font-display font-bold text-lg text-steel-900 mb-2">Telhamento & Entrega Técnica</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Fixação de telhas, cumeeiras, rufos e calhas, seguida de checklist de alinhamento, limpeza do canteiro e faturamento fiscal (NFS-e).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DADOS EMPRESARIAIS & SEDE EM BRASÍLIA - DF -->
+        <section id="institucional" class="py-20 lg:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                    
+                    <!-- FICHA INSTITUCIONAL -->
+                    <div class="lg:col-span-6">
+                        <span class="text-weld-600 font-mono font-bold text-xs uppercase tracking-widest block mb-2">Conformidade Jurídica & Fiscal</span>
+                        <h2 class="font-display font-bold text-3xl sm:text-4xl text-steel-900 mb-5">
+                            Solidez operacional no Distrito Federal.
+                        </h2>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                            A <strong>Estruturas Metalicas Cc Santos LTDA</strong>, inscrita no <strong>CNPJ 48.041.523/0001-02</strong>, está estrategicamente sediada no <strong>Setor Habitacional Fercal (Sobradinho), Brasília - DF</strong>, polo de forte vocação industrial e logística da capital federal.
+                        </p>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-8">
+                            Atuando sob o <strong>CNAE principal 42.92-8-01 (Montagem de estruturas metálicas)</strong>, atendemos construtoras, indústrias, centros de distribuição, condomínios logísticos e produtores rurais em todas as Regiões Administrativas do DF e Goiás com contratos claros, cronograma respeitado e emissão de Nota Fiscal.
+                        </p>
+
+                        <div class="bg-white border border-steel-200 p-6 sm:p-8 space-y-4">
+                            <div class="flex items-center justify-between border-b border-steel-100 pb-3">
+                                <span class="text-xs font-mono uppercase text-slate-400 font-bold">Cadastro Nacional da Pessoa Jurídica</span>
+                                <span class="inline-flex items-center gap-1 text-xs font-mono font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 border border-emerald-200">
+                                    <i class="ph-fill ph-check-circle"></i> ATIVA
+                                </span>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm">
+                                <div>
+                                    <span class="text-slate-400 text-xs block">Razão Social:</span>
+                                    <strong class="text-steel-900 font-bold">Estruturas Metalicas Cc Santos LTDA</strong>
+                                </div>
+                                <div>
+                                    <span class="text-slate-400 text-xs block">CNPJ:</span>
+                                    <strong class="text-weld-600 font-mono font-bold">48.041.523/0001-02</strong>
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <span class="text-slate-400 text-xs block">CNAE Principal:</span>
+                                    <strong class="text-steel-900 font-semibold">42.92-8-01 - Montagem de estruturas metálicas</strong>
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <span class="text-slate-400 text-xs block">Endereço da Sede:</span>
+                                    <strong class="text-steel-900 font-semibold">Setor Engenho Velho Quadra 14 Lt 27A Casa 04 - Setor Habitacional Fercal (Sobradinho), Brasília - DF • CEP 73150-050</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAPA E EXPEDIENTE -->
+                    <div class="lg:col-span-6 space-y-6">
+                        <div class="bg-white border border-steel-200 p-6 sm:p-7">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl shrink-0">
+                                    <i class="ph-fill ph-clock"></i>
+                                </div>
+                                <div class="w-full">
+                                    <h3 class="font-display font-bold text-lg text-steel-900">Horário de Atendimento Técnico & Comercial</h3>
+                                    <div class="mt-3 space-y-2 text-xs sm:text-sm font-mono">
+                                        <div class="flex justify-between py-1.5 border-b border-steel-100">
+                                            <span class="text-slate-500">Segunda a Sexta-feira:</span>
+                                            <span class="font-bold text-steel-900">07:30 às 18:00</span>
+                                        </div>
+                                        <div class="flex justify-between py-1.5 border-b border-steel-100">
+                                            <span class="text-slate-500">Sábados (Visitas Técnicas):</span>
+                                            <span class="font-bold text-steel-900">08:00 às 12:00</span>
+                                        </div>
+                                        <div class="flex justify-between py-1.5">
+                                            <span class="text-slate-500">Central de Engenharia (DF):</span>
+                                            <span class="font-bold text-weld-600">(61) 3591-4280 / (61) 99824-5020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MAP EMBED -->
+                        <div class="bg-white border border-steel-200 p-2.5">
+                            <div class="w-full h-72 relative bg-steel-100 overflow-hidden">
+                                <iframe 
+                                    title="Mapa Sede Estruturas Metalicas Cc Santos LTDA - Fercal Sobradinho Brasília DF"
+                                    src="https://www.google.com/maps?q=Setor+Habitacional+Fercal+Sobradinho+Brasilia+DF+73150-050&output=embed" 
+                                    class="w-full h-full border-0 absolute inset-0" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <div class="absolute bottom-3 left-3 bg-steel-950/95 text-white p-3 border-l-4 border-weld-500 text-xs max-w-xs">
+                                    <span class="font-mono font-bold text-weld-400 block">Estruturas Metalicas Cc Santos LTDA</span>
+                                    <span class="text-slate-300">Setor Engenho Velho Qd 14 Lt 27A Casa 04 - Fercal (Sobradinho), Brasília/DF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer class="bg-steel-950 text-slate-400 text-sm pt-16 pb-12 border-t-4 border-weld-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 mb-12">
+                
+                <!-- COL 1 -->
+                <div class="lg:col-span-5">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 bg-weld-500 flex items-center justify-center text-white text-xl">
+                            <i class="ph-bold ph-Nut"></i>
+                        </div>
+                        <div>
+                            <span class="font-display font-bold text-lg text-white block leading-none uppercase">
+                                CC SANTOS ESTRUTURAS METÁLICAS
+                            </span>
+                            <span class="text-[11px] font-mono text-weld-400">CNPJ 48.041.523/0001-02</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-md">
+                        Engenharia de montagem de estruturas metálicas, galpões industriais, mezaninos, coberturas de grande vão e reforço estrutural em Brasília - DF.
+                    </p>
+                    <div class="text-xs text-slate-300 space-y-1.5 bg-white/5 p-4 border border-white/10 font-mono">
+                        <p><strong class="text-weld-400">Razão Social:</strong> Estruturas Metalicas Cc Santos LTDA</p>
+                        <p><strong class="text-weld-400">CNPJ:</strong> 48.041.523/0001-02</p>
+                        <p><strong class="text-weld-400">CNAE Principal:</strong> 42.92-8-01 - Montagem de estruturas metálicas</p>
+                        <p><strong class="text-weld-400">Endereço:</strong> Setor Engenho Velho Quadra 14 Lt 27A Casa 04, Setor Habitacional Fercal (Sobradinho), Brasília - DF, CEP 73150-050</p>
+                    </div>
+                </div>
+
+                <!-- COL 2 -->
+                <div class="lg:col-span-3">
+                    <h4 class="font-display font-bold text-white text-base mb-4 uppercase">Mapa do Site</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="#solucoes" class="hover:text-weld-400 transition-colors">Soluções Estruturais</a></li>
+                        <li><a href="#simulador" class="hover:text-weld-400 transition-colors">Simulador de Dimensionamento</a></li>
+                        <li><a href="#metodologia" class="hover:text-weld-400 transition-colors">Protocolo de Montagem</a></li>
+                        <li><a href="#institucional" class="hover:text-weld-400 transition-colors">Ficha Cadastral & Sede</a></li>
+                        <li><a href="contato.html" class="hover:text-weld-400 transition-colors">Central de Orçamentos</a></li>
+                    </ul>
+                </div>
+
+                <!-- COL 3 -->
+                <div class="lg:col-span-4">
+                    <h4 class="font-display font-bold text-white text-base mb-4 uppercase">Compliance & Documentos</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm mb-6">
+                        <li>
+                            <a href="privacy-policy.html" class="hover:text-weld-400 transition-colors flex items-center gap-2">
+                                <i class="ph-bold ph-shield-check text-weld-400"></i> Política de Privacidade (LGPD)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms-of-use.html" class="hover:text-weld-400 transition-colors flex items-center gap-2">
+                                <i class="ph-bold ph-file-text text-weld-400"></i> Termos de Uso e Condições Técnicas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contato.html" class="hover:text-weld-400 transition-colors flex items-center gap-2">
+                                <i class="ph-bold ph-phone-call text-weld-400"></i> Solicitar Visita Técnica em Obra
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text-xs text-slate-500 leading-relaxed font-mono">
+                        Execução em conformidade com as Normas Regulamentadoras NR-18, NR-35 e ABNT NBR 8800.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-mono">
+                <p>&copy; 2026 Estruturas Metalicas Cc Santos LTDA • CNPJ 48.041.523/0001-02. Todos os direitos reservados.</p>
+                <p>Brasília - Distrito Federal • Brasil</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DE ORÇAMENTO TÉCNICO -->
+    <div id="modal-orcamento" class="fixed inset-0 z-50 bg-steel-950/80 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white border-t-8 border-weld-500 max-w-lg w-full p-6 sm:p-8 relative shadow-2xl">
+            <button onclick="toggleModal('modal-orcamento')" class="absolute top-6 right-6 text-slate-400 hover:text-steel-900 text-xl">
+                <i class="ph-bold ph-x"></i>
+            </button>
+
+            <div class="flex items-center gap-3.5 mb-6">
+                <div class="w-12 h-12 bg-steel-900 text-weld-500 flex items-center justify-center text-2xl">
+                    <i class="ph-bold ph-Blueprint"></i>
+                </div>
+                <div>
+                    <h3 class="font-display font-bold text-xl text-steel-900">Solicitar Orçamento de Engenharia</h3>
+                    <p class="text-xs text-slate-500 font-mono">Estruturas Metalicas Cc Santos LTDA • Brasília/DF</p>
+                </div>
+            </div>
+
+            <form id="quote-form" onsubmit="enviarOrcamentoWhatsApp(event)" class="space-y-4 text-xs sm:text-sm">
+                <div>
+                    <label class="block text-steel-900 font-bold mb-1">Nome / Empresa Contratante *</label>
+                    <input type="text" id="orc-nome" required placeholder="Seu nome ou razão social da construtora/empresa" class="w-full bg-steel-50 border border-steel-200 px-4 py-3 text-steel-900 focus:outline-none focus:border-weld-500">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-steel-900 font-bold mb-1">Telefone / WhatsApp *</label>
+                        <input type="tel" id="orc-tel" required placeholder="(61) 99999-9999" class="w-full bg-steel-50 border border-steel-200 px-4 py-3 text-steel-900 focus:outline-none focus:border-weld-500">
+                    </div>
+                    <div>
+                        <label class="block text-steel-900 font-bold mb-1">Local da Obra (Cidade/RA) *</label>
+                        <input type="text" id="orc-local" required placeholder="Ex: Sobradinho, SIA, Taguatinga..." class="w-full bg-steel-50 border border-steel-200 px-4 py-3 text-steel-900 focus:outline-none focus:border-weld-500">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-steel-900 font-bold mb-1">Escopo do Serviço *</label>
+                    <input type="text" id="orc-escopo" required value="Montagem de Galpão / Estrutura Metálica" class="w-full bg-steel-50 border border-steel-200 px-4 py-3 text-steel-900 focus:outline-none focus:border-weld-500">
+                </div>
+
+                <div>
+                    <label class="block text-steel-900 font-bold mb-1">Especificações Técnicas / Área Estimada *</label>
+                    <textarea id="orc-detalhes" rows="3" required placeholder="Informe metragem aproximada (m²), pé-direito, se já possui projeto estrutural ou necessita de visita técnica..." class="w-full bg-steel-50 border border-steel-200 px-4 py-3 text-steel-900 focus:outline-none focus:border-weld-500 font-mono text-xs"></textarea>
+                </div>
+
+                <button type="submit" class="w-full py-3.5 bg-weld-500 hover:bg-weld-600 text-white font-display font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg transition-all text-sm">
+                    <i class="ph-bold ph-whatsapp-logo text-lg"></i>
+                    <span>Enviar Escopo para Orçamentista</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        let tipoEstruturaAtual = 'galpao';
+
+        function toggleMobileMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+
+        function toggleModal(id) {
+            const modal = document.getElementById(id);
+            if (modal.classList.contains('hidden')) {
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+            } else {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        function filtrarServicos(cat, btnEl) {
+            const cards = document.querySelectorAll('.srv-card');
+            const btns = document.querySelectorAll('.srv-btn');
+
+            btns.forEach(b => {
+                b.classList.remove('bg-steel-900', 'text-white');
+                b.classList.add('bg-white', 'text-steel-700');
+            });
+
+            btnEl.classList.add('bg-steel-900', 'text-white');
+            btnEl.classList.remove('bg-white', 'text-steel-700');
+
+            cards.forEach(c => {
+                if (cat === 'todos' || c.getAttribute('data-cat') === cat) {
+                    c.style.display = 'flex';
+                } else {
+                    c.style.display = 'none';
+                }
+            });
+        }
+
+        function selecionarServico(nomeServico) {
+            document.getElementById('orc-escopo').value = nomeServico;
+            toggleModal('modal-orcamento');
+        }
+
+        function setTipoEstrutura(tipo) {
+            tipoEstruturaAtual = tipo;
+            const ids = ['galpao', 'cobertura', 'mezanino'];
+            ids.forEach(t => {
+                const el = document.getElementById('tipo-' + t);
+                if (t === tipo) {
+                    el.className = 'py-2.5 px-3 bg-weld-500 text-white font-mono font-bold text-xs uppercase';
+                } else {
+                    el.className = 'py-2.5 px-3 bg-white/5 text-slate-300 border border-white/10 font-mono font-bold text-xs uppercase';
+                }
+            });
+            calcularEstrutura();
+        }
+
+        function calcularEstrutura() {
+            const area = parseInt(document.getElementById('input-area').value, 10);
+            const vao = parseInt(document.getElementById('input-vao').value, 10);
+
+            document.getElementById('area-val').textContent = `${area} m²`;
+            document.getElementById('vao-val').textContent = `${vao} metros`;
+
+            let taxaKgPorM2 = 26;
+            let descricaoPerfil = '';
+
+            if (tipoEstruturaAtual === 'galpao') {
+                taxaKgPorM2 = 24 + (vao * 0.35);
+                descricaoPerfil = 'Pórticos em Perfil Alma Cheia / Treliça Duas Águas + Terças em Perfil U Enrijecido';
+            } else if (tipoEstruturaAtual === 'cobertura') {
+                taxaKgPorM2 = 15 + (vao * 0.25);
+                descricaoPerfil = 'Tesouras Metálicas Treliçadas + Contraventamentos e Telhamento Galvalume/Termoacústico';
+            } else {
+                taxaKgPorM2 = 42 + (vao * 0.4);
+                descricaoPerfil = 'Vigas Principais e Secundárias em Perfil Laminado W/I + Pilares Tubulares/H';
+            }
+
+            const pesoTotal = Math.round((area * taxaKgPorM2) / 50) * 50;
+            const diasMin = Math.max(5, Math.round(area / 28));
+            const diasMax = Math.max(8, Math.round(area / 18));
+
+            document.getElementById('out-peso').textContent = `~${pesoTotal.toLocaleString('pt-BR')} kg`;
+            document.getElementById('out-prazo').textContent = `${diasMin} a ${diasMax} dias`;
+            document.getElementById('out-perfil').textContent = descricaoPerfil;
+        }
+
+        function enviarSimulacaoParaModal() {
+            const area = document.getElementById('area-val').textContent;
+            const vao = document.getElementById('vao-val').textContent;
+            const peso = document.getElementById('out-peso').textContent;
+            const perfil = document.getElementById('out-perfil').textContent;
+
+            document.getElementById('orc-escopo').value = `Simulação Técnica (${tipoEstruturaAtual.toUpperCase()})`;
+            document.getElementById('orc-detalhes').value = `Área projetada: ${area} | Vão livre: ${vao} | Peso estimado: ${peso} | Sistema: ${perfil}`;
+            toggleModal('modal-orcamento');
+        }
+
+        function enviarOrcamentoWhatsApp(e) {
+            e.preventDefault();
+            const nome = document.getElementById('orc-nome').value.trim();
+            const tel = document.getElementById('orc-tel').value.trim();
+            const local = document.getElementById('orc-local').value.trim();
+            const escopo = document.getElementById('orc-escopo').value.trim();
+            const detalhes = document.getElementById('orc-detalhes').value.trim();
+
+            let msg = `*SOLICITAÇÃO DE ORÇAMENTO ESTRUTURAL - CC SANTOS METÁLICAS*\n`;
+            msg += `----------------------------------------\n`;
+            msg += `👤 *Solicitante:* ${nome}\n`;
+            msg += `📞 *Contato:* ${tel}\n`;
+            msg += `📍 *Local da Obra:* ${local}\n`;
+            msg += `🏗️ *Serviço:* ${escopo}\n`;
+            msg += `📐 *Detalhes Técnicos:*\n${detalhes}\n`;
+            msg += `----------------------------------------\n`;
+            msg += `_Estruturas Metalicas Cc Santos LTDA • CNPJ 48.041.523/0001-02_`;
+
+            const phone = "5561998245020";
+            window.open(`https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(msg)}`, '_blank');
+            toggleModal('modal-orcamento');
+        }
+    </script>
+</body>
+</html>
